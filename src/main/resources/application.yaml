@@ -1,0 +1,16 @@
+server:
+  port: 8089
+  servlet:
+    context-path: /api/v1
+
+telegram:
+  bot:
+    token: 6416644955:AAGZOiYN0QE_FUp188E9aqooQWKkH-WK218
+    username: t.me/weatherBot_by_m_bot
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: 123
+
